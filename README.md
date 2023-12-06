@@ -10,7 +10,7 @@ The goal of this project is to create a program that enumerates (lists) the rati
 
 ### Example 1:
 
-- **Output File: **`RationalNumbersOutput.txt`
+- **Output File:** `RationalNumbersOutput.txt`
 - **Lower Bound:** -10
 - **Upper Bound:** 10
 - **Step Size:** 5
