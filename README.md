@@ -4,7 +4,25 @@ This Java program generates a list of rational numbers within specified bounds, 
 
 ## Project Overview
 
-The goal of this project is to create a program that enumerates (lists) the rational numbers that appear at the intersections of vertical and horizontal lines of the form x = a and y = b, where a, b ∈ Z. The generated output includes the first rational number, every 50th rational number thereafter, and the last rational number within the given boundaries. The code is designed to be adaptable to different boundary values.
+The primary goal of this project is to create a versatile program capable of listing rational numbers at the intersections of vertical and horizontal lines, defined by the equations x = a and y = b, where a, b ∈ Z. The program prompts the user to specify an output file name, as well as lower and upper bounds for x and y.
+
+## Getting Started
+
+1. **Clone the repository:** `git clone https://github.com/Lightmean03/RationalNumberGen.git`
+
+2. **Compile the Java source code:** `javac src/App.java -d bin`
+
+3. **Run the program:** `java -cp bin App`
+
+4. **Follow the on-screen instructions:**
+
+   - Provide the output file name (e.g., RationalNumbersOutput.txt).
+   - Enter the lower bound for x and y.
+   - Enter the upper bound for x and y.
+   - Enter the step size for x and y.
+
+5. **View the generated output:**
+   - The program will create a file containing the requested rational numbers.
 
 ## Example Inputs and Outputs
 
