@@ -35,7 +35,7 @@ public class App {
     }
 
     private static void writeHeader(PrintStream printStream) {
-        printStream.println("Name: Your Kaden");
+        printStream.println("Name: Kaden");
         printStream.println("Section: Math 263-101");
         printStream.println("Project: #1");
         printStream.println("Programming Language Used: Java");
