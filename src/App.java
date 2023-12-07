@@ -5,7 +5,7 @@ public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter the output file name (e.g., RationalNumbersOutput.pdf): ");
+        System.out.print("Enter the output file name (e.g., RationalNumbersOutput.txt): ");
         String fileName = scanner.nextLine();
 
         int lowerBound = getUserInput("Enter the lower bound for x and y: ");
